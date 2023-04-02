@@ -1,0 +1,438 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Stylesheet.css">
+  </head>
+  <body>
+
+    <div class="backgrounddiv">
+        <a href = "TestProject.html" target = "_self">
+        <img src="HeadingCard.png" width=100%>
+    </a>
+    <div class="section1div">
+    <a href="BeastGenerator.html" class="linkssection">Beast Generator</a> 
+    <a href="DamageCalculator.html" class="linkssection">Damage Calculator</a>
+     </div>
+     <div class="section4div">
+        <p class="paragraphtext"> This page is for, surprisingly, generating Beasts! Beasts have several aspects that contribute to their
+            stats: Genetic and Effort scores, plus the species base scores. If you've played pokemon, you might recognize these as IVs and
+            EVs. These are similar, but not identical. <br> <br>
+            Beasts also have abilities that also resemble pokemon moves, though these are more restrictive. A standard attack, two "soulstrike"
+            moves, and then magic abilities. In the game, these could be hypothetically infinite. Here? We're limiting it to 3 for simplicity.
+            <br> <br> Have fun generating your beasts! :) </p>
+            <form id="beastgenform">
+                <label for="beastlist" class="selectiontext">Choose a Beast:</label>
+                <select name="beastlist" id="beasts">
+                        <option value="Greml">Greml</option>
+                        <option value="Roggle">Roggle</option>
+                        <option value="Flareial">Flareial</option>
+                        <option value="Firefox">Firefox</option>
+                        <option value="Bris">Bris</option>
+                        <option value="Pyorg">Pyorg</option>
+                        <option value="Twurqqlon">Twurqqlon</option>
+                        <option value="Koy">Koy</option>
+                        <option value="Druttle">Druttle</option>
+                        <option value="Roturret">Roturret</option>
+                        <option value="Unit">Unit</option>
+                        <option value="Sprighte">Sprighte</option>
+                        <option value="Gote">Gote</option>
+                        <option value="9mmkiwi">9mmKiwi</option>
+                        <option value="Pixie">Pixie</option>
+                        <option value="Firefly">Firefly</option>
+                        <option value="DesertEagle">DesertEagle</option>
+                        <option value="Salamander">Salamander</option>
+                        <option value="Hob">Hob</option>
+                        <option value="Hobldegak">Hobldegak</option>
+                        <option value="Imp">Imp</option>
+                        <option value="Foulmouth">Foulmouth</option>
+                        <option value="Tricken">Tricken</option>
+                        <option value="Demicampus">Demicampus</option>
+                        <option value="Cherrybud">Cherrybud</option>
+                        <option value="Drak">Drak</option>
+                        <option value="Tikihuka">Tikihuka</option>
+                        <option value="Ug">Ug</option>
+                        <option value="Saur">Saur</option>
+                        <option value="Stywrack">Stywrack</option>
+                        <option value="Promethal">Promethal</option>
+                        <option value="Roglop">Roglop</option>
+                        <option value="Djingo">Djingo</option>
+                        <option value="Monocera">Monocera</option>
+                        <option value="Solrotor">Solrotor</option>
+                        <option value="Nagrop">Nagrop</option>
+                        <option value="SkullRoggle">SkullRoggle</option>
+                        <option value="Raqth">Raqth</option>
+                        <option value="Guppea">Guppea</option>
+                        <option value="Krekab">Krekab</option>
+                        <option value="Florg">Florg</option>
+                        <option value="Silma">Silma</option>
+                        <option value="Omgull">Omgull</option>
+                        <option value="Seavolver">Seavolver</option>
+                        <option value="Nereid">Nereid</option>
+                        <option value="Buoybie">Buoybid</option>
+                        <option value="Brownstoat">Brown Stoat</option>
+                        <option value="Forestfish">Forest Fish</option>
+                        <option value="Kelpip">Kelpip</option>
+                        <option value="Shufl">Shufl</option>
+                        <option value="Frigit">Frigit</option>
+                        <option value="Snowolf">Snowolf</option>
+                        <option value="Whiteermine">White Ermine</option>
+                        <option value="Dogrop">Dogrop</option>
+                        <option value="Sphenodon">Sphenodon</option>
+                        <option value="Crystatus">Crystatus</option>
+                        <option value="Cumulus">Cumulus</option>
+                        <option value="Cloudra">Cloudra</option>
+                        <option value="Bulboid">Bulboid</option>
+                        <option value="Bgeln">Bgeln</option>
+                        <option value="Dracret">Dracret</option>
+                        <option value="Roper">Roper</option>
+                        <option value="Sputnik">Sputnik</option>
+                        <option value="Lupup">Lupup</option>
+                        <option value="Lunaris">Lunaris</option>
+                        <option value="Sekil">Sekil</option>
+                        <option value="Scurver">Scurver</option>
+                        <option value="OsFlorg">OsFlorg</option>
+                        <option value="Woot">Woot</option>
+                        <option value="Birdrak">Bridrak</option>
+                        <option value="Babawin">Babawin</option>
+                        <option value="Tikiraedel">Tikiraedel</option>
+                        <option value="Orly">Orly</option>
+                        <option value="Grundle">Grundle</option>
+                        <option value="HalkNeona">HalkNeona</option>
+                        <option value="Grigg">Grigg</option>
+                        <option value="Henn">Henn</option>
+                        <option value="Gruul">Gruul</option>
+                        <option value="Songun">Songun</option>
+                        <option value="Kee">Kee</option>
+                        <option value="Drakee">Drakee</option>
+                        <option value="Grubb">Grubb</option>
+                        <option value="Gobbledegak">Gobbledegak</option>
+                        <option value="Chakasi">Chakasi</option>
+                        <option value="Terrnip">Terrnip</option>
+                        <option value="Bolar">Bolar</option>
+                        <option value="IosGrubb">IosGrubb</option>
+                        <option value="Volnar">Volnar</option>
+                        <option value="Minimon">Minimon</option>
+                        <option value="Demiphage">Demiphage</option>
+                        <option value="Sprite">Sprite</option>
+                        <option value="Monitor">Monitor</option>
+                        <option value="Pixelroggle">PixelRoggle</option>
+                        <option value="Triangulon">Triangulon</option>
+                        <option value="Oskapo">Oskapo</option>
+                        <option value="Skellington">Skellington</option>
+                        <option value="Zombog">Zombog</option>
+                        <option value="Skullbug">Skullbug</option>
+                        <option value="Demianj">Demianj</option>
+                        <option value="Winguard">Winguard</option>
+                        <option value="Anj">Anj</option>
+                        <option value="Quillwheel">Quillwheel</option>
+                        <option value="Nullsprite">NullSprite</option>
+                        <option value="Novacryst">Novacryst</option>
+                        <option value="Larva">Larva</option>
+                        <option value="Arkizard">Arkizard</option>
+                        <option value="Fallen">Fallen</option>
+                        <option value="Zeode">Zeode</option>
+                        <option value="Zarlek">Zarlek</option>
+                        <option value="Zelth">Zelth</option>
+                        <option value="Tweed">Tweed</option>
+                    </select>
+                <br><br>
+                <div class="container">
+                <div class="geneticsdiv">
+                <p> Genetics: 0 to 20</p>
+                <label for="IVHP">HP Genetics:</label><br>
+                <input type="range" id="IVHP" name="IVHP" min=0 max=20 oninput="document.getElementById('parHP').innerText = parseInt(this.value);parHP=parseInt(this.value)">
+                <output name="show_parHP_val" id="parHP">10</output><br>
+                <label for="IVMP">MP Genetics:</label><br>
+                <input type="range" id="IVMP" name="IVMP" min=0 max=20 oninput="document.getElementById('parMP').innerText = parseInt(this.value);parMP=parseInt(this.value)">
+                <output name="show_parMP_val" id="parMP">10</output><br>
+                <label for="IVATK">ATK Genetics:</label><br>
+                <input type="range" id="IVATK" name="IVATK" min=0 max=20 oninput="document.getElementById('parATK').innerText = parseInt(this.value);parATK=parseInt(this.value)">
+                <output name="show_parATK_val" id="parATK">10</output><br>
+                <label for="IVDEF">DEF Genetics:</label><br>
+                <input type="range" id="IVDEF" name="IVDEF" min=0 max=20 oninput="document.getElementById('parDEF').innerText = parseInt(this.value);parDEF=parseInt(this.value)">
+                <output name="show_parDEF_val" id="parDEF">10</output><br>
+                <label for="IVMATK">MATK Genetics:</label><br>
+                <input type="range" id="IVMATK" name="IVMATK" min=0 max=20 oninput="document.getElementById('parMATK').innerText = parseInt(this.value);parMATK=parseInt(this.value)">
+                <output name="show_parMATK_val" id="parMATK">10</output><br>
+                <label for="IVMDEF">MDEF Genetics:</label><br>
+                <input type="range" id="IVMDEF" name="IVMDEF" min=0 max=20 oninput="document.getElementById('parMDEF').innerText = parseInt(this.value);parMDEF=parseInt(this.value)">
+                <output name="show_parMDEF_val" id="parMDEF">10</output><br>
+                <label for="IVSPD">SPD Genetics:</label><br>
+                <input type="range" id="IVSPD" name="IVSPD" min=0 max=20 oninput="document.getElementById('parSPD').innerText = parseInt(this.value);parSPD=parseInt(this.value)">
+                <output name="show_parSPD_val" id="parSPD">10</output>
+                </div>
+
+                <div class="effortdiv">
+                <p> Effort Values: Max of 400 TOTAL</p>
+                <label for="EVHP">HP Effort:</label><br>
+                <input type="range" id="EVHP" name="EVHP" min=0 max=400 value=0 oninput="document.getElementById('parEVHP').innerText = parseInt(this.value);parEVHP=parseInt(this.value)">
+                <output name="show_parEVHP_val" id="parEVHP">0</output><br>
+                <label for="EVMP">MP Effort:</label><br>
+                <input type="range" id="EVMP" name="EVMP" min=0 max=400 value=0 oninput="document.getElementById('parEVMP').innerText = parseInt(this.value);parEVMP=parseInt(this.value)">
+                <output name="show_parEVMP_val" id="parEVMP">0</output><br>
+                <label for="EVATK">ATK Effort:</label><br>
+                <input type="range" id="EVATK" name="EVATK" min=0 max=400 value=0 oninput="document.getElementById('parEVATK').innerText = parseInt(this.value);parEVATK=parseInt(this.value)">
+                <output name="show_parEVATK_val" id="parEVATK">0</output><br>
+                <label for="EVDEF">DEF Effort:</label><br>
+                <input type="range" id="EVDEF" name="EVDEF" min=0 max=400 value=0 oninput="document.getElementById('parEVDEF').innerText = parseInt(this.value);parEVDEF=parseInt(this.value)">
+                <output name="show_parEVDEF_val" id="parEVDEF">0</output><br>
+                <label for="EVMATK">MATK Effort:</label><br>
+                <input type="range" id="EVMATK" name="EVMATK" min=0 max=400 value=0 oninput="document.getElementById('parEVMATK').innerText = parseInt(this.value);parEVMATK=parseInt(this.value)">
+                <output name="show_parEVMATK_val" id="parEVMATK">0</output><br>
+                <label for="EVMDEF">MDEF Effort:</label><br>
+                <input type="range" id="EVMDEF" name="EVMDEF" min=0 max=400 value=0 oninput="document.getElementById('parEVMDEF').innerText = parseInt(this.value);parEVMDEF=parseInt(this.value)">
+                <output name="show_parEVMDEF_val" id="parEVMDEF">0</output><br>
+                <label for="EVSPD">SPD Effort:</label><br>
+                <input type="range" id="EVSPD" name="EVSPD" min=0 max=400 value=0 oninput="document.getElementById('parEVSPD').innerText = parseInt(this.value);parEVSPD=parseInt(this.value)">
+                <output name="show_parEVSPD_val" id="parEVSPD">0</output>
+                </div>
+
+                <div class="miscthingsdiv">
+                    <label for="level">Beast Level:</label><br>
+                    <input type="text" id="level" name="level"> <br> <br>
+                    <label for="tempA"> Temperament 1</label> <br>
+                    <select name="tempA" id="tempA">
+                        <option value="Choleric">Choleric</option>
+                        <option value="Phlegmatic">Phlegmatic</option>
+                        <option value="Melancholic">Melancholic</option>
+                        <option value="Sanguine">Sanguine</option>
+                        </select> <br> <br>
+                    <label for="tempB">Temperament 2:</label><br>
+                    <select name="tempB" id="tempB">
+                        <option value="None">None</option>
+                        <option value="Choleric">Choleric</option>
+                        <option value="Phlegmatic">Phlegmatic</option>
+                        <option value="Melancholic">Melancholic</option>
+                        <option value="Sanguine">Sanguine</option>
+                        </select> <br> <br>
+
+                    </div>
+                    <br>
+                    <input type="submit" value="Generate!" onClick="generatorFunction()" background-color="#099090">
+                </form>
+                <script>
+                    //here we go baybee
+                    function generatorFunction() {
+                    //var ivs = {"HP":iv_hp, "MP":iv_mp, "ATK":iv_atk, "DEF":iv_def, "MATK":iv_matk, "MDEF":iv_mdef, "SPD":iv_spd};
+                    //var evs = {"HP":ev_hp, "MP":ev_mp, "ATK":ev_atk, "DEF":ev_def, "MATK":ev_matk, "MDEF":ev_mdef, "SPD":ev_spd};
+                    var stats = {"HP":0, "MP":0, "ATK":0, "DEF":0, "MATK":0, "MDEF":0, "SPD":0}
+                    var species_list = [{"name":"Bolar","HP":40,"MP":28,"ATK":20,"DEF":40,"MATK":20,"MDEF":45,"SPD":10},
+                                {"name":"Bris","HP":25,"MP":35,"ATK":25,"DEF":30,"MATK":30,"MDEF":25,"SPD":35},
+                                {"name":"Bulboid","HP":36,"MP":26,"ATK":26,"DEF":30,"MATK":34,"MDEF":30,"SPD":30},
+                                {"name":"Buoybie","HP":36,"MP":28,"ATK":26,"DEF":30,"MATK":28,"MDEF":40,"SPD":18},
+                                {"name":"Buzzle","HP":32,"MP":25,"ATK":31,"DEF":33,"MATK":22,"MDEF":26,"SPD":34},
+                                {"name":"Cherrybud","HP":40,"MP":26,"ATK":36,"DEF":18,"MATK":36,"MDEF":18,"SPD":40},
+                                {"name":"Cumulus","HP":20,"MP":40,"ATK":15,"DEF":20,"MATK":42,"MDEF":50,"SPD":30},
+                                {"name":"Demianj","HP":30,"MP":30,"ATK":27,"DEF":28,"MATK":37,"MDEF":38,"SPD":20},
+                                {"name":"Dogrop","HP":30,"MP":30,"ATK":40,"DEF":25,"MATK":20,"MDEF":28,"SPD":28},
+                                {"name":"Druttle","HP":28,"MP":32,"ATK":30,"DEF":50,"MATK":20,"MDEF":20,"SPD":20},
+                                {"name":"Firefly","HP":33,"MP":27,"ATK":30,"DEF":23,"MATK":30,"MDEF":23,"SPD":50},
+                                {"name":"Greml","HP":30,"MP":30,"ATK":35,"DEF":28,"MATK":35,"MDEF":28,"SPD":30},
+                                {"name":"Grubb","HP":30,"MP":30,"ATK":31,"DEF":34,"MATK":28,"MDEF":30,"SPD":25},
+                                {"name":"Guppea","HP":30,"MP":30,"ATK":26,"DEF":28,"MATK":30,"MDEF":34,"SPD":32},
+                                {"name":"Henn","HP":22,"MP":16,"ATK":15,"DEF":20,"MATK":15,"MDEF":23,"SPD":30},
+                                {"name":"Hob","HP":40,"MP":20,"ATK":33,"DEF":27,"MATK":33,"MDEF":27,"SPD":30},
+                                {"name":"Inkus","HP":26,"MP":40,"ATK":15,"DEF":15,"MATK":55,"MDEF":35,"SPD":30},
+                                {"name":"IosGrubb","HP":32,"MP":28,"ATK":36,"DEF":26,"MATK":22,"MDEF":30,"SPD":28},
+                                {"name":"Kee","HP":25,"MP":35,"ATK":36,"DEF":28,"MATK":28,"MDEF":28,"SPD":38},
+                                {"name":"Larva","HP":33,"MP":33,"ATK":33,"DEF":33,"MATK":33,"MDEF":33,"SPD":15},
+                                {"name":"Nagrop","HP":36,"MP":33,"ATK":35,"DEF":28,"MATK":35,"MDEF":22,"SPD":22},
+                                {"name":"NullSprite","HP":30,"MP":30,"ATK":30,"DEF":30,"MATK":30,"MDEF":30,"SPD":30},
+                                {"name":"Omgull","HP":27,"MP":30,"ATK":30,"DEF":20,"MATK":20,"MDEF":35,"SPD":50},
+                                {"name":"Orly","HP":25,"MP":31,"ATK":35,"DEF":25,"MATK":25,"MDEF":30,"SPD":35},
+                                {"name":"Oskapo","HP":40,"MP":20,"ATK":30,"DEF":50,"MATK":10,"MDEF":35,"SPD":10},
+                                {"name":"Roglop","HP":32,"MP":28,"ATK":40,"DEF":20,"MATK":35,"MDEF":25,"SPD":30},
+                                {"name":"Sekil","HP":33,"MP":27,"ATK":33,"DEF":44,"MATK":26,"MDEF":20,"SPD":27},
+                                {"name":"Shufl","HP":34,"MP":30,"ATK":30,"DEF":20,"MATK":35,"MDEF":40,"SPD":22},
+                                {"name":"Sprighte","HP":22,"MP":46,"ATK":20,"DEF":20,"MATK":38,"MDEF":35,"SPD":35},
+                                {"name":"Sprite","HP":30,"MP":30,"ATK":30,"DEF":30,"MATK":30,"MDEF":30,"SPD":30},
+                                {"name":"Sputnik","HP":35,"MP":35,"ATK":20,"DEF":30,"MATK":40,"MDEF":40,"SPD":15},
+                                {"name":"Tricken","HP":22,"MP":16,"ATK":8,"DEF":25,"MATK":8,"MDEF":25,"SPD":30},
+                                {"name":"Ug","HP":44,"MP":16,"ATK":40,"DEF":36,"MATK":10,"MDEF":20,"SPD":26},
+                                {"name":"Woot","HP":30,"MP":30,"ATK":30,"DEF":28,"MATK":30,"MDEF":28,"SPD":36},
+                                {"name":"Yarly","HP":25,"MP":35,"ATK":25,"DEF":25,"MATK":35,"MDEF":35,"SPD":30},
+                                {"name":"Zeode","HP":30,"MP":30,"ATK":34,"DEF":26,"MATK":34,"MDEF":26,"SPD":30},
+                                {"name":"9mmkiwi","HP":44,"MP":50,"ATK":63,"DEF":36,"MATK":30,"MDEF":40,"SPD":60},
+                                {"name":"Anj","HP":46,"MP":60,"ATK":34,"DEF":40,"MATK":65,"MDEF":70,"SPD":55},
+                                {"name":"Arkizard","HP":56,"MP":60,"ATK":63,"DEF":58,"MATK":52,"MDEF":59,"SPD":45},
+                                {"name":"Babawin","HP":50,"MP":50,"ATK":55,"DEF":48,"MATK":50,"MDEF":52,"SPD":54},
+                                {"name":"Bgeln","HP":60,"MP":42,"ATK":64,"DEF":64,"MATK":36,"MDEF":45,"SPD":45},
+                                {"name":"Birdrak","HP":54,"MP":40,"ATK":61,"DEF":38,"MATK":55,"MDEF":40,"SPD":65},
+                                {"name":"BladeBee","HP":44,"MP":40,"ATK":70,"DEF":30,"MATK":50,"MDEF":50,"SPD":70},
+                                {"name":"Brownstoat","HP":60,"MP":40,"ATK":55,"DEF":45,"MATK":40,"MDEF":44,"SPD":70},
+                                {"name":"Bunsurn","HP":55,"MP":55,"ATK":50,"DEF":37,"MATK":62,"MDEF":43,"SPD":50},
+                                {"name":"Chakasi","HP":54,"MP":50,"ATK":52,"DEF":62,"MATK":53,"MDEF":50,"SPD":40},
+                                {"name":"Cloudra","HP":65,"MP":70,"ATK":50,"DEF":24,"MATK":60,"MDEF":83,"SPD":52},
+                                {"name":"Crystatus","HP":44,"MP":64,"ATK":51,"DEF":36,"MATK":57,"MDEF":70,"SPD":41},
+                                {"name":"Dargun","HP":50,"MP":50,"ATK":65,"DEF":60,"MATK":40,"MDEF":60,"SPD":35},
+                                {"name":"Demicampus","HP":58,"MP":52,"ATK":55,"DEF":56,"MATK":46,"MDEF":65,"SPD":35},
+                                {"name":"Demiphage","HP":60,"MP":50,"ATK":23,"DEF":60,"MATK":45,"MDEF":102,"SPD":30},
+                                {"name":"DesertEagle","HP":36,"MP":50,"ATK":68,"DEF":32,"MATK":30,"MDEF":22,"SPD":60},
+                                {"name":"Djingo","HP":49,"MP":50,"ATK":62,"DEF":40,"MATK":36,"MDEF":50,"SPD":70},
+                                {"name":"Dracret","HP":56,"MP":60,"ATK":50,"DEF":48,"MATK":56,"MDEF":60,"SPD":42},
+                                {"name":"Drak","HP":50,"MP":50,"ATK":65,"DEF":40,"MATK":58,"MDEF":40,"SPD":55},
+                                {"name":"Drakee","HP":47,"MP":50,"ATK":61,"DEF":45,"MATK":45,"MDEF":45,"SPD":65},
+                                {"name":"Fallen","HP":43,"MP":62,"ATK":44,"DEF":35,"MATK":72,"MDEF":70,"SPD":60},
+                                {"name":"Firefox","HP":46,"MP":60,"ATK":32,"DEF":34,"MATK":64,"MDEF":55,"SPD":56},
+                                {"name":"Flareial","HP":50,"MP":40,"ATK":44,"DEF":40,"MATK":44,"MDEF":56,"SPD":70},
+                                {"name":"Florg","HP":52,"MP":50,"ATK":50,"DEF":52,"MATK":50,"MDEF":52,"SPD":47},
+                                {"name":"Forestfish","HP":50,"MP":50,"ATK":48,"DEF":60,"MATK":48,"MDEF":44,"SPD":58},
+                                {"name":"Foulmouth","HP":56,"MP":56,"ATK":40,"DEF":60,"MATK":56,"MDEF":60,"SPD":20},
+                                {"name":"Frigit","HP":46,"MP":46,"ATK":60,"DEF":35,"MATK":55,"MDEF":40,"SPD":66},
+                                {"name":"Gobbldegak","HP":60,"MP":40,"ATK":70,"DEF":60,"MATK":28,"MDEF":40,"SPD":50},
+                                {"name":"Gote","HP":50,"MP":50,"ATK":56,"DEF":46,"MATK":48,"MDEF":56,"SPD":43},
+                                {"name":"Grigg","HP":33,"MP":63,"ATK":36,"DEF":56,"MATK":60,"MDEF":45,"SPD":70},
+                                {"name":"Grundle","HP":60,"MP":45,"ATK":62,"DEF":65,"MATK":35,"MDEF":45,"SPD":30},
+                                {"name":"Gruul","HP":60,"MP":40,"ATK":60,"DEF":58,"MATK":14,"MDEF":44,"SPD":50},
+                                {"name":"HalkNeona","HP":50,"MP":55,"ATK":52,"DEF":45,"MATK":55,"MDEF":65,"SPD":50},
+                                {"name":"Hobldegak","HP":66,"MP":35,"ATK":61,"DEF":63,"MATK":25,"MDEF":45,"SPD":44},
+                                {"name":"Imp","HP":46,"MP":54,"ATK":60,"DEF":26,"MATK":60,"MDEF":26,"SPD":80},
+                                {"name":"Indra","HP":50,"MP":60,"ATK":55,"DEF":26,"MATK":66,"MDEF":66,"SPD":56},
+                                {"name":"Kelpip","HP":35,"MP":70,"ATK":25,"DEF":30,"MATK":60,"MDEF":50,"SPD":40},
+                                {"name":"Koy","HP":48,"MP":56,"ATK":37,"DEF":44,"MATK":68,"MDEF":59,"SPD":68},
+                                {"name":"Krekab","HP":60,"MP":40,"ATK":64,"DEF":64,"MATK":35,"MDEF":30,"SPD":35},
+                                {"name":"Lunaris","HP":50,"MP":60,"ATK":30,"DEF":60,"MATK":70,"MDEF":80,"SPD":20},
+                                {"name":"Lupup","HP":48,"MP":45,"ATK":64,"DEF":42,"MATK":28,"MDEF":44,"SPD":76},
+                                {"name":"Minimon","HP":58,"MP":43,"ATK":65,"DEF":55,"MATK":38,"MDEF":48,"SPD":50},
+                                {"name":"Monitor","HP":50,"MP":50,"ATK":70,"DEF":50,"MATK":30,"MDEF":50,"SPD":50},
+                                {"name":"Monocera","HP":60,"MP":60,"ATK":56,"DEF":70,"MATK":50,"MDEF":58,"SPD":36},
+                                {"name":"Nereid","HP":40,"MP":70,"ATK":28,"DEF":29,"MATK":63,"MDEF":73,"SPD":64},
+                                {"name":"Novacryst","HP":50,"MP":60,"ATK":45,"DEF":65,"MATK":45,"MDEF":65,"SPD":45},
+                                {"name":"OsFlorg","HP":30,"MP":50,"ATK":55,"DEF":100,"MATK":48,"MDEF":28,"SPD":35},
+                                {"name":"PixelRoggle","HP":50,"MP":50,"ATK":50,"DEF":50,"MATK":50,"MDEF":50,"SPD":50},
+                                {"name":"Pixie","HP":36,"MP":60,"ATK":33,"DEF":28,"MATK":60,"MDEF":66,"SPD":66},
+                                {"name":"Promethal","HP":56,"MP":56,"ATK":55,"DEF":48,"MATK":52,"MDEF":48,"SPD":47},
+                                {"name":"Pyorg","HP":50,"MP":50,"ATK":42,"DEF":66,"MATK":55,"MDEF":65,"SPD":34},
+                                {"name":"Quillwheel","HP":36,"MP":50,"ATK":8,"DEF":25,"MATK":80,"MDEF":80,"SPD":40},
+                                {"name":"Raqth","HP":50,"MP":50,"ATK":63,"DEF":37,"MATK":63,"MDEF":44,"SPD":56},
+                                {"name":"Roggle","HP":54,"MP":45,"ATK":60,"DEF":50,"MATK":46,"MDEF":53,"SPD":50},
+                                {"name":"Roper","HP":43,"MP":60,"ATK":35,"DEF":35,"MATK":71,"MDEF":66,"SPD":32},
+                                {"name":"Roturret","HP":50,"MP":30,"ATK":80,"DEF":70,"MATK":30,"MDEF":30,"SPD":30},
+                                {"name":"Salamander","HP":50,"MP":56,"ATK":54,"DEF":38,"MATK":60,"MDEF":48,"SPD":50},
+                                {"name":"Saur","HP":54,"MP":43,"ATK":64,"DEF":65,"MATK":30,"MDEF":50,"SPD":36},
+                                {"name":"Scurver","HP":62,"MP":39,"ATK":67,"DEF":77,"MATK":32,"MDEF":40,"SPD":40},
+                                {"name":"Seavolver","HP":44,"MP":50,"ATK":65,"DEF":26,"MATK":46,"MDEF":20,"SPD":65},
+                                {"name":"Shakasi","HP":34,"MP":40,"ATK":52,"DEF":65,"MATK":60,"MDEF":50,"SPD":40},
+                                {"name":"Silma","HP":35,"MP":70,"ATK":14,"DEF":20,"MATK":74,"MDEF":60,"SPD":40},
+                                {"name":"Skellington","HP":20,"MP":50,"ATK":58,"DEF":150,"MATK":17,"MDEF":40,"SPD":28},
+                                {"name":"SkullRoggle","HP":30,"MP":33,"ATK":66,"DEF":100,"MATK":38,"MDEF":30,"SPD":26},
+                                {"name":"Skullbug","HP":47,"MP":50,"ATK":47,"DEF":60,"MATK":61,"MDEF":60,"SPD":40},
+                                {"name":"Snowolf","HP":50,"MP":50,"ATK":56,"DEF":40,"MATK":56,"MDEF":46,"SPD":62},
+                                {"name":"Solrotor","HP":50,"MP":60,"ATK":30,"DEF":64,"MATK":64,"MDEF":64,"SPD":20},
+                                {"name":"Songun","HP":50,"MP":60,"ATK":46,"DEF":60,"MATK":50,"MDEF":34,"SPD":55},
+                                {"name":"Sphenodon","HP":47,"MP":60,"ATK":56,"DEF":51,"MATK":54,"MDEF":58,"SPD":40},
+                                {"name":"Stywrack","HP":62,"MP":30,"ATK":58,"DEF":82,"MATK":38,"MDEF":30,"SPD":26},
+                                {"name":"Terrnip","HP":66,"MP":70,"ATK":25,"DEF":30,"MATK":69,"MDEF":63,"SPD":66},
+                                {"name":"Tikihuka","HP":45,"MP":70,"ATK":25,"DEF":30,"MATK":62,"MDEF":65,"SPD":55},
+                                {"name":"Tikiraedel","HP":45,"MP":70,"ATK":37,"DEF":30,"MATK":69,"MDEF":64,"SPD":60},
+                                {"name":"Triangulon","HP":50,"MP":50,"ATK":30,"DEF":50,"MATK":70,"MDEF":50,"SPD":50},
+                                {"name":"Tweed","HP":35,"MP":70,"ATK":15,"DEF":30,"MATK":80,"MDEF":70,"SPD":50},
+                                {"name":"Twurqqlon","HP":49,"MP":51,"ATK":56,"DEF":44,"MATK":35,"MDEF":65,"SPD":50},
+                                {"name":"Unit","HP":40,"MP":50,"ATK":60,"DEF":30,"MATK":60,"MDEF":30,"SPD":60},
+                                {"name":"Vega","HP":55,"MP":55,"ATK":30,"DEF":55,"MATK":55,"MDEF":55,"SPD":60},
+                                {"name":"Volnar","HP":42,"MP":40,"ATK":64,"DEF":57,"MATK":12,"MDEF":50,"SPD":76},
+                                {"name":"Whiteermine","HP":50,"MP":60,"ATK":45,"DEF":40,"MATK":60,"MDEF":48,"SPD":70},
+                                {"name":"Winguard","HP":60,"MP":50,"ATK":70,"DEF":70,"MATK":50,"MDEF":40,"SPD":25},
+                                {"name":"Zarlek","HP":58,"MP":40,"ATK":72,"DEF":40,"MATK":30,"MDEF":60,"SPD":55},
+                                {"name":"Zelth","HP":48,"MP":60,"ATK":61,"DEF":39,"MATK":64,"MDEF":45,"SPD":60},
+                                {"name":"Zombog","HP":120,"MP":50,"ATK":55,"DEF":25,"MATK":55,"MDEF":35,"SPD":26},
+                               ]
+
+                               var x = document.getElementById("beastgenform");
+                               var y = []
+                               for(i=0; i < x.length; i++) { //convert all parts to actual values
+                                //0 is beast
+                                //1 is HPIV
+                                //3 is MPIV
+                                //5 is ATKIV
+                                //7 is DEFIV
+                                //9 is MATKIV
+                                //11 is MDEFIV
+                                //13 is SPDIV
+                                //15 is HPEV
+                                //17 is MPEV
+                                //19 is ATKEV
+                                //21 is DEFEV
+                                //23 is MATKEV
+                                //25 is MDEFEV
+                                //27 is SPDEV
+                                //29 is levl
+                                //30 is tempA
+                                //31 is tempB
+                                y.push(x.elements[i].value);
+                               }
+                               var ivs = {"HP":parseInt(y[1]), "MP":parseInt(y[3]), "ATK":parseInt(y[5]), "DEF":parseInt(y[7]), "MATK":parseInt(y[9]), "MDEF":parseInt(y[11]), "SPD":parseInt(y[13])};
+                               var evs = {"HP":parseInt(y[15]), "MP":parseInt(y[17]), "ATK":parseInt(y[19]), "DEF":parseInt(y[21]), "MATK":parseInt(y[23]), "MDEF":y[25], "SPD":parseInt(y[27])};
+                               var stats = {"HP":0, "MP":0, "ATK":0, "DEF":0, "MATK":0, "MDEF":0, "SPD":0}
+                               var beastfound = y[0];
+                               var i = 0; //beastindex
+                               while(i < species_list.length){
+                                if(species_list[i]['name'] == beastfound){
+                                    break;
+                                    }
+                                    i++
+                                }
+                                var selectedspecies = species_list[i]
+                                var statarray = [];
+                                for (i in ["HP", "MP", "ATK", "DEF", "MATK", "MDEF", "SPD"]) {
+                                    var statname = ["HP", "MP", "ATK", "DEF", "MATK", "MDEF", "SPD"][i]
+                                    var checkspeciesselection = selectedspecies[statname]
+                                    var checkEV = evs[statname]
+                                    var checkIV = ivs[statname]
+                                    statarray[i] = (selectedspecies[statname] * (1+(parseInt(y[29])/20)) + evs[statname]/10 ) * (1+(ivs[statname]-10)*0.0125);
+                                }
+                                var actual_hp = parseInt(statarray[0] * 2 + (statarray[1] / 3) * parseInt(y[29]))
+                                var actual_mp = statarray[1]
+
+                                if((y[30][0] == "C") | (y[31][0] == "C")) {
+                                statarray[2] *= 1.1
+                                statarray[4] *= 0.9
+                            }
+                                if((y[30][0] == "P") | (y[31][0] == "P")) {
+                                statarray[5] *= 1.1
+                                statarray[6] *= 0.9
+                            }
+                                if((y[30][0] == "S") | (y[31][0] == "S")) {
+                                statarray[6] *= 1.1
+                                statarray[5] *= 0.9
+                            }
+                                if((y[30][0] == "M") | (y[31][0] == "M")) {
+                                statarray[4] *= 1.1
+                                statarray[2] *= 0.9
+                            }
+                                for (i in statarray){
+                                statarray[i] = Math.floor(statarray[i])
+                                }
+
+                               //document.getElementById("demo").innerHTML = y;
+                               document.getElementById("hp_stat").innerHTML += statarray[0]
+                               document.getElementById("real_hp").innerHTML += actual_hp
+                               document.getElementById("mp_stat").innerHTML += statarray[1]
+                               document.getElementById("real_mp").innerHTML += Math.floor(actual_mp)
+                               document.getElementById("atk_stat").innerHTML += statarray[2]
+                               document.getElementById("def_stat").innerHTML += statarray[3]
+                               document.getElementById("matk_stat").innerHTML += statarray[4]
+                               document.getElementById("mdef_stat").innerHTML += statarray[5]
+                               document.getElementById("spd_stat").innerHTML += statarray[6]
+                               return
+                    }
+                </script>
+                </div>
+                <div style="background-color: #099090;">
+                <p id="hp_stat" class="paragraphtext">HP Stat: </p>
+                <p id="real_hp" class="paragraphtext">Real HP Amount: </p>
+                <p id="mp_stat" class="paragraphtext">MP Stat: </p>
+                <p id="real_mp" class="paragraphtext">Real MP Amount: </p>
+                <p id="atk_stat" class="paragraphtext">Attack Stat: </p>
+                <p id="def_stat" class="paragraphtext">Defense Stat: </p>
+                <p id="matk_stat" class="paragraphtext">Magic Attack Stat: </p>
+                <p id="mdef_stat" class="paragraphtext">Magic Defense Stat: </p>
+                <p id="spd_stat" class="paragraphtext">Speed Stat: </p>
+                </div>
+            </div>
+        </div>
+      </div>
+     </div>
+     
+  </body>
+</html>
